@@ -1,0 +1,15 @@
+.header_font{
+	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+	font-weight:bold;
+}
+p,.pi{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10;
+}
+.menu_font{
+	color: #95A5A6;
+	font-size: 15;
+}
+#admin-menu-wrapper a{
+font-size:16px;
+}
