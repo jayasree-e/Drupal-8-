@@ -1,0 +1,17 @@
+header:
+  version: 1.x
+  css:
+    theme:
+      css/header.css: {}
+card:
+  version: 1.x
+  css:
+    theme:
+      css/card.css: {}
+  js: 
+    js/holder.js: {}      
+font:
+  version: 1.x
+  css:
+    theme:
+      css/font.css: {}
