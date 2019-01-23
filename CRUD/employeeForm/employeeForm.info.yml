@@ -1,0 +1,5 @@
+name: employeeForm
+description: A Form to enter employee  details.
+core: 8.x
+package: custom
+type: module

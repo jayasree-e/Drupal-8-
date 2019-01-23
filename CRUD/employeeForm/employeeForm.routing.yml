@@ -1,0 +1,32 @@
+employeeForm.empform:
+  path: '/crud/data'
+  defaults:
+    _form: '\Drupal\employeeForm\Form\EmpForm'
+    _title: 'DetailsForm'
+  requirements:
+    _access: 'TRUE'
+
+employeeForm.display_controller:
+  path : '/admin/crud/display'
+  defaults:
+    _controller: '\Drupal\employeeForm\Controller\DisplayController::display'
+    _title: 'ContentsofTable '
+  requirements:
+    _access: 'TRUE'
+    #_permission: 'access content'
+
+employeeForm.delete_form:
+  path : '/admin/crud/delete/{eid}'
+  defaults:
+    _form: '\Drupal\employeeForm\Form\DeleteForm'
+    _title: 'DeleteForm'
+  requirements:
+    _access: 'TRUE'
+
+employeeForm.update_form:
+  path : '/admin/crud/data/edit'
+  defaults:
+    _form: '\Drupal\employeeForm\Form\UpdateForm'
+    _title: 'UpdateForm'
+  requirements:
+    _access: 'TRUE'
